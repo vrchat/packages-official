@@ -1,0 +1,201 @@
+{
+	"name" : "Curated",
+	"author" : "developer@vrchat.com",
+	"url" : "vrchat.github.io/packages-official/curated.json",
+	"packages" : {
+		"com.vrchat.clientsim" : {
+			"versions" : {
+				"1.2.2" : {
+					"name" : "com.vrchat.clientsim",
+					"displayName" : "VRChat Client Simulator",
+					"version" : "1.2.2",
+					"unity" : "2019.4",
+					"description" : "VRChat Client Simulator for testing SDK3 worlds in Unity.",
+					"dependencies" : {
+						"com.vrchat.clientsim" : "1.2.2",
+						"com.vrchat.worlds" : "3.1.10",
+						"com.vrchat.base" : "3.1.10"
+					},
+					"vpmDependencies" : {
+						"com.vrchat.worlds" : "3.1.x"
+					},
+					"samples" : [
+						{
+							"displayName" : "ClientSimWorldTestExample",
+							"description" : "An example of a world test using the Test Framework included in ClientSim. Automate interactions in your world and verify the results. Currently requires knowledge of C# and Unity Testing.",
+							"path" : "Samples~/ClientSimWorldTestExample"
+						},
+						{
+							"displayName" : "ClientSimSelfTests",
+							"description" : "Tests to ensure ClientSim works as expected. Includes: Respawn test.",
+							"path" : "Samples~/ClientSimSelfTests"
+						}
+					],
+					"repo" : "vrchat.github.io/packages-official/curated.json",
+					"url" : "https://github.com/vrchat/packages-official/releases/download/staged/com.vrchat.clientsim-1.2.2.zip",
+					"legacyFolders" : {
+						"Assets\\CyanEmu" : "91b9a83a129504741a363d9a324de958"
+					}
+				}
+			}
+		},
+		"com.vrchat.udonsharp" : {
+			"versions" : {
+				"1.1.6" : {
+					"name" : "com.vrchat.udonsharp",
+					"displayName" : "UdonSharp",
+					"version" : "1.1.6",
+					"unity" : "2019.4",
+					"description" : "A compiler for compiling C# to Udon assembly",
+					"dependencies" : {
+						"com.vrchat.udonsharp" : "1.1.6",
+						"com.vrchat.worlds" : "3.1.10",
+						"com.vrchat.base" : "3.1.10"
+					},
+					"vpmDependencies" : {
+						"com.vrchat.worlds" : "3.1.x"
+					},
+					"samples" : [
+						{
+							"displayName" : "CustomInspectors",
+							"description" : "Custom Inspector Example",
+							"path" : "Samples~/CustomInspectors"
+						},
+						{
+							"displayName" : "Tutorials",
+							"description" : "Tutorials Example",
+							"path" : "Samples~/Tutorials"
+						}
+					],
+					"repo" : "vrchat.github.io/packages-official/curated.json",
+					"url" : "https://github.com/vrchat/packages-official/releases/download/staged/com.vrchat.UdonSharp-1.1.6.zip",
+					"legacyFolders" : {
+						"Assets\\UdonSharp" : "b031f928e5c709b4887f6513084aaa51",
+						"Assets\\Gizmos\\UdonSharp" : "6e940dfc89ce4ca41b651e05bc21be6b"
+					}
+				}
+			}
+		},
+		"com.llealloo.audiolink" : {
+			"versions" : {
+				"0.3.1" : {
+					"name" : "com.llealloo.audiolink",
+					"displayName" : "AudioLink",
+					"version" : "0.3.1",
+					"description" : "Audio reactive prefabs for VRChat",
+					"dependencies" : {
+						"com.llealloo.audiolink" : "0.3.1"
+					},
+					"gitDependencies" : {},
+					"vpmDependencies" : {},
+					"samples" : [
+						{
+							"displayName" : "AudioLinkExampleScene",
+							"description" : "An example scene showing off the capabilities of AudioLink.",
+							"path" : "Samples~/AudioLinkExampleScene"
+						}
+					],
+					"repo" : "vrchat.github.io/packages-official/curated.json",
+					"url" : "https://github.com/vrchat/packages-official/releases/download/staged/com.llealloo.audiolink-0.3.1.zip",
+					"legacyFolders" : {
+						"Assets\\AudioLink" : ""
+					},
+					"legacyFiles" : {}
+				}
+			}
+		},
+		"dev.onevr.vrworldtoolkit" : {
+			"versions" : {
+				"2.1.2" : {
+					"name" : "dev.onevr.vrworldtoolkit",
+					"displayName" : "VRWorld Toolkit",
+					"version" : "2.1.2",
+					"unity" : "2019.4",
+					"description" : "VRWorld Toolkit is a Unity Editor extension made to make VRChat world creation more accessible and lower the entry-level to make a good performing world.",
+					"dependencies" : {
+						"dev.onevr.vrworldtoolkit" : "2.1.2",
+						"com.vrchat.base" : "3.1.10"
+					},
+					"vpmDependencies" : {
+						"com.vrchat.base" : "3.1.x"
+					},
+					"documentationUrl" : "https://github.com/oneVR/VRWorldToolkit",
+					"licensesUrl" : "https://github.com/oneVR/VRWorldToolkit/blob/master/LICENSE",
+					"repo" : "vrchat.github.io/packages-official/curated.json",
+					"url" : "https://github.com/vrchat/packages-official/releases/download/staged/VRWorldToolkit-2.1.2.zip",
+					"legacyFolders" : {
+						"Assets\\VRWorldToolkit" : "fb6f58799fddd184a94ea8cd32c9db5a"
+					}
+				}
+			}
+		},
+		"vrchat.jordo.easyquestswitch" : {
+			"versions" : {
+				"1.2.1" : {
+					"name" : "vrchat.jordo.easyquestswitch",
+					"displayName" : "EasyQuestSwitch",
+					"version" : "1.2.1",
+					"description" : "EasyQuestSwitch is a Unity editor tool developed for VRChat world creators, it can automate changes to components within a scene as soon as the build platform is changed from PC to Android (for Oculus Quest) or vice versa.",
+					"dependencies" : {
+						"vrchat.jordo.easyquestswitch" : "1.2.1"
+					},
+					"gitDependencies" : {},
+					"vpmDependencies" : {},
+					"repo" : "vrchat.github.io/packages-official/curated.json",
+					"url" : "https://github.com/vrchat/packages-official/releases/download/staged/vrchat.jordo.easyquestswitch-1.2.1.zip",
+					"legacyFolders" : {
+						"Assets\\EasyQuestSwitch" : ""
+					}
+				}
+			}
+		},
+		"dev.vrlabs.av3manager" : {
+			"versions" : {
+				"2.0.17" : {
+					"name" : "dev.vrlabs.av3manager",
+					"displayName" : "Avatars 3.0 Manager",
+					"version" : "2.0.17",
+					"unity" : "2019.4",
+					"description" : "A tool for managing playable layers and parameters for Avatars 3.0.",
+					"dependencies" : {
+						"dev.vrlabs.av3manager" : "2.0.17",
+						"com.vrchat.avatars" : "3.1.10",
+						"com.vrchat.base" : "3.1.10"
+					},
+					"vpmDependencies" : {
+						"com.vrchat.avatars" : ">=3.1.2"
+					},
+					"repo" : "vrchat.github.io/packages-official/curated.json",
+					"url" : "https://github.com/vrchat/packages-official/releases/download/staged/Avatars_3.0_Manager_2.0.17.zip",
+					"legacyFolders" : {
+						"Assets\\VRLabs\\Avatars 3.0 Manager" : "513a67139704dd249855ebe5f760cba5"
+					}
+				}
+			}
+		},
+		"vrchat.blackstartx.gesture-manager" : {
+			"versions" : {
+				"3.8.2" : {
+					"name" : "vrchat.blackstartx.gesture-manager",
+					"displayName" : "Gesture Manager",
+					"version" : "3.8.2",
+					"unity" : "2019.4",
+					"description" : "A tool that will help you preview your VRChat Avatar animation directly in Unity.",
+					"dependencies" : {
+						"vrchat.blackstartx.gesture-manager" : "3.8.2",
+						"com.vrchat.avatars" : "3.1.10",
+						"com.vrchat.base" : "3.1.10"
+					},
+					"vpmDependencies" : {
+						"com.vrchat.avatars" : "3.1.x"
+					},
+					"repo" : "vrchat.github.io/packages-official/curated.json",
+					"url" : "https://github.com/vrchat/packages-official/releases/download/staged/VRC-Gesture-Manager-3.8.2.zip",
+					"legacyFolders" : {
+						"Assets\\GestureManager" : "73dec07c46a7d41409b0c389860fb28e"
+					}
+				}
+			}
+		}
+	}
+}
