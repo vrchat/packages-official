@@ -1,0 +1,111 @@
+{
+	"name" : "Official",
+	"author" : "developer@vrchat.com",
+	"url" : "vrchat.github.io/packages-official/index.json",
+	"packages" : {
+		"com.vrchat.base" : {
+			"versions" : {
+				"3.1.10" : {
+					"name" : "com.vrchat.base",
+					"displayName" : "VRChat SDK - Base",
+					"version" : "3.1.10",
+					"unity" : "2019.4",
+					"description" : "Base for VRChat SDK",
+					"dependencies" : {
+						"com.vrchat.base" : "3.1.10"
+					},
+					"vpmDependencies" : {},
+					"vrchatVersion" : "2022.1.1",
+					"repo" : "vrchat.github.io/packages-official/index.json",
+					"url" : "https://github.com/vrchat/packages-official/releases/download/staged/com.vrchat.base-3.1.10.zip"
+				}
+			}
+		},
+		"com.vrchat.worlds" : {
+			"versions" : {
+				"3.1.10" : {
+					"name" : "com.vrchat.worlds",
+					"displayName" : "VRChat SDK - Worlds",
+					"version" : "3.1.10",
+					"unity" : "2019.4",
+					"description" : "Tools for creating interactive VRChat worlds using Udon",
+					"dependencies" : {
+						"com.vrchat.worlds" : "3.1.10",
+						"com.vrchat.base" : "3.1.10"
+					},
+					"vpmDependencies" : {
+						"com.vrchat.base" : "3.1.x"
+					},
+					"samples" : [
+						{
+							"displayName" : "UdonExampleScene",
+							"description" : "Basic Udon Examples for Learning",
+							"path" : "Samples/UdonExampleScene"
+						}
+					],
+					"repo" : "vrchat.github.io/packages-official/index.json",
+					"url" : "https://github.com/vrchat/packages-official/releases/download/staged/com.vrchat.worlds-3.1.10.zip",
+					"legacyFolders" : {
+						"Assets\\VRCSDK" : "",
+						"Assets\\Udon" : "",
+						"Assets\\VRChat Examples" : "",
+						"Packages\\com.vrchat.vrcsdk3" : ""
+					}
+				}
+			}
+		},
+		"com.vrchat.avatars" : {
+			"versions" : {
+				"3.1.10" : {
+					"name" : "com.vrchat.avatars",
+					"displayName" : "VRChat SDK - Avatars",
+					"version" : "3.1.10",
+					"unity" : "2019.4",
+					"description" : "Our powerful Avatars 3.0 System",
+					"dependencies" : {
+						"com.vrchat.avatars" : "3.1.10",
+						"com.vrchat.base" : "3.1.10"
+					},
+					"vpmDependencies" : {
+						"com.vrchat.base" : "3.1.x"
+					},
+					"samples" : [
+						{
+							"displayName" : "AV3 Demo Assets",
+							"description" : "Basic AV3 Demo Assets",
+							"path" : "Samples/AV3 Demo Assets"
+						},
+						{
+							"displayName" : "Robot Avatar",
+							"description" : "Demo of Avatar Dynamics",
+							"path" : "Samples/Dynamics/Robot Avatar"
+						}
+					],
+					"repo" : "vrchat.github.io/packages-official/index.json",
+					"url" : "https://github.com/vrchat/packages-official/releases/download/staged/com.vrchat.avatars-3.1.10.zip",
+					"legacyFolders" : {
+						"Assets\\VRCSDK" : ""
+					}
+				}
+			}
+		},
+		"com.vrchat.core.vpm-resolver" : {
+			"versions" : {
+				"0.1.17" : {
+					"name" : "com.vrchat.core.vpm-resolver",
+					"displayName" : "VRChat Package Resolver Tool",
+					"version" : "0.1.17",
+					"unity" : "2019.4",
+					"description" : "Tool to Download VPM Packages",
+					"dependencies" : {
+						"com.vrchat.core.vpm-resolver" : "0.1.17"
+					},
+					"vpmDependencies" : {},
+					"vrchatVersion" : "2022.1.1",
+					"repo" : "vrchat.github.io/packages-official/index.json",
+					"url" : "https://github.com/vrchat/packages-official/releases/download/staged/com.vrchat.core.vpm-resolver-0.1.17.zip"
+				}
+			}
+		}
+	}
+}
