@@ -16,5 +16,6 @@
 		"vrchat-community/package-sdk-base", 
 		"vrchat-community/package-sdk-worlds",
 		"vrchat-community/package-sdk-avatars",
+		"vrchat-community/package-sdk-resolver",
 	],	
 }
