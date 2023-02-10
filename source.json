@@ -12,5 +12,5 @@
 	},
 	"bannerUrl" : "banner.png",
 	"url" : "https://vrchat-community.github.io/template-package-listing/index.json",
-	"githubRepos" : [ "vrchat-community/package-sdk-base" ],	
+	"githubRepos" : [ "vrchat-community/package-sdk-base", "vrchat-community/package-sdk-worlds" ],	
 }
