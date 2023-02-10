@@ -12,43 +12,5 @@
 	},
 	"bannerUrl" : "banner.png",
 	"url" : "https://vrchat-community.github.io/template-package-listing/index.json",
-	"githubRepos" : [ "vrchat-community/clientsim" ],
-	"packages" : [
-		{
-			"name" : "com.vrchat.base",
-			"releases" : [
-				{
-					"manifestUrl" : "https://github.com/vrchat/packages-official/releases/download/staged/base-3.1.10.json",
-					"zipUrl" : "https://github.com/vrchat/packages-official/releases/download/staged/com.vrchat.base-3.1.10.zip"
-				}
-			]
-		},
-		{
-			"name" : "com.vrchat.worlds",
-			"releases" : [
-				{
-					"manifestUrl" : "https://github.com/vrchat/packages-official/releases/download/staged/worlds-3.1.10.json",
-					"zipUrl" : "https://github.com/vrchat/packages-official/releases/download/staged/com.vrchat.worlds-3.1.10.zip"
-				}
-			]
-		},
-		{
-			"name" : "com.vrchat.avatars",
-			"releases" : [
-				{
-					"manifestUrl" : "https://github.com/vrchat/packages-official/releases/download/staged/avatars-3.1.10.json",
-					"zipUrl" : "https://github.com/vrchat/packages-official/releases/download/staged/com.vrchat.avatars-3.1.10.zip"
-				}
-			]
-		},
-		{
-			"name" : "com.vrchat.core.vpm-resolver",
-			"releases" : [
-				{
-					"manifestUrl" : "https://github.com/vrchat/packages-official/releases/download/staged/resolver-0.1.17.json",
-					"zipUrl" : "https://github.com/vrchat/packages-official/releases/download/staged/com.vrchat.core.vpm-resolver-0.1.17.zip"
-				}
-			]
-		}
-	]
+	"githubRepos" : [ "vrchat-community/package-sdk-base" ],	
 }
