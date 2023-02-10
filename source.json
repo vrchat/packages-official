@@ -5,12 +5,16 @@
 		"name" : "VRChat",
 		"url" : "https://hello.vrchat.com"
 	},
-	"description" : "Example listing of VRChat packages",
+	"description" : "Our Official SDK Packages",
 	"infoLink" : {
 		"url" : "http://github.com/vrchat-community/template-package-listing",
 		"text" : "View on GitHub"
 	},
 	"bannerUrl" : "banner.png",
 	"url" : "https://vrchat-community.github.io/template-package-listing/index.json",
-	"githubRepos" : [ "vrchat-community/package-sdk-base", "vrchat-community/package-sdk-worlds" ],	
+	"githubRepos" : [ 
+		"vrchat-community/package-sdk-base", 
+		"vrchat-community/package-sdk-worlds",
+		"vrchat-community/package-sdk-avatars",
+	],	
 }
